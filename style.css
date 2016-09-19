@@ -1,0 +1,74 @@
+/*base*/
+
+html, body{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.4;
+    height: 100%;
+    
+    margin:0;
+    padding: 0;
+}
+
+a{text-decoration: none; color: inherit;}
+.container{
+    overflow: hidden; /*sinon bug espace au dessus du menu*/
+}
+
+h2{
+ margin-bottom: 2px;
+}
+p{
+    margin-top: 0px;
+}
+
+.site-content{
+    padding-top: 66px;
+    margin: 0 0px 0 20px;
+    padding-right: 20px;
+
+}
+
+/*Header*/
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 66px;
+
+    line-height: 66px;
+    color: #FFF;
+
+    background-color: #2e7d32;
+}
+
+.header__logo{
+   font-weight: bold;
+   padding: 0 25px;
+   float: left; 
+}
+
+
+ /*Menu*/
+
+.menu{
+    float: left;
+}
+
+.menu a{
+    padding: 0 10px;
+}
+
+.menu a:hover{
+    color: #c6ff00;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding-top: 10px;
+}
+/*responsive*/
+/*@import "responsive";*/
+
