@@ -1,0 +1,119 @@
+body{
+background-color: white;
+}
+
+.parallax {
+/* The image used */
+background-image: url("picture/banner.jpg");
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+img.pull-left {
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+/* img.pull-left execute une action à 0,5 seconde  */
+
+img.pull-left:hover {
+    -moz-transform: rotate(5deg) scale(1.10);
+    -webkit-transform: rotate(5deg) scale(1.10);
+    -o-transform: rotate(5deg) scale(1.10);
+    -ms-transform: rotate(5deg) scale(1.10);
+    transform: rotate(5deg) scale(1.10);
+    opacity: 1;
+}
+/* fait une rotation de 5 degrés et zoom (scale) 10%  */
+
+
+
+.pull-left
+{
+  width: 75px;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 30px
+}
+
+h1, h2, h6
+{
+    color : black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+p
+{
+    color : black;
+    text-align: center;
+    text-align:justify;
+    width: 50%;
+    margin: auto;
+
+}
+
+
+hr{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+#nav {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#nav li {
+    display: inline;
+    list-style: none;
+}
+
+#nav a {
+    display:inline-block;
+    margin: 0 30px;
+}
+
+
+img.icon {
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+img.icon:hover {
+    -moz-transform: rotate(360deg) scale(1.10);
+    -webkit-transform: rotate(360deg) scale(1.10);
+    -o-transform: rotate(360deg) scale(1.10);
+    -ms-transform: rotate(360deg) scale(1.10);
+    transform: rotate(360deg) scale(1.10);
+}
+
+h3{
+    color : black;
+    text-align: center;
+    width: 50%;
+}
+
+.alert{
+    text-align: center;
+ }
